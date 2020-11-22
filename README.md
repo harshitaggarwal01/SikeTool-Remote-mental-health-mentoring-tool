@@ -34,7 +34,9 @@ Our web application aims to analyze the user's mental health using a common ther
 #### To-Do (Tentatively):
 
   1. Improve UI/UX of flask app.
-~~2. Complete integration of models and database.~~
+  
+  ~~2. Complete integration of models and database.~~
+  
   3. Summary Visualizations on Therapist's side.
   4. Resources for managing depression on Patient's side.
   
