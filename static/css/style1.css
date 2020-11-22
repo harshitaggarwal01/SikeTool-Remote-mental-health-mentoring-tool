@@ -1,0 +1,200 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+:root{
+    --ff-primary:'Source Sans Pro', sans-serif;
+    --ff-secondary: 'Source Code Pro', monospace;
+
+    --fw-reg: 300;
+    --fw-bold: 900;
+    
+    --clr-light: #fff;
+    --clr-dark: #303030;
+    --clr-accent: #16e0bd;
+    
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+
+    --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
+          0.125em 0.125em 0.25em rgba(0,0,0,.15);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 5em 2em;
+}
+
+body {
+    /*background: var(--clr-light);
+    color: var(--clr-dark);
+    /*background: #43cea2;  /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #F1F2B5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #135058, #F1F2B5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #135058, #F1F2B5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height: 1.6;
+}
+/*Typography*/
+h1,
+h2,
+h3 {
+    line-height: 1;
+    margin: 0;
+}
+
+h1{ font-size: var(--fs-h1)}
+h2{ font-size: var(--fs-h2)}
+h3{ font-size: var(--fs-h3)}
+
+
+/*buttons*/
+
+.btn{
+    display: inline-block;
+    padding: .5em 2.5em;
+    background: var(--clr-accent);
+    color: var(--clr-dark);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: var(--fw-bold);
+    transition: transform 200ms ease-in-out;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+
+.heading {
+    color: var(--clr-dark);
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-bold);
+    text-align: center;
+    font-family: var(--ff-primary);
+}
+
+.about {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+}
+
+.about_title {
+    color: #303030;
+    font-weight: var(--fw-bold);
+}
+.section__title--about{
+    font-size: var(--fs-h2);
+    color: var(--clr-accent);
+}
+
+.about_body {
+    font-weight: var(--fw-reg);
+    color: var(--clr-accent);
+}
+
+.members {
+    padding-left: 70%;
+    padding-right: 0.5rem;
+}
+
+.member_title {
+    color: var(--clr-accent);
+}
+
+.login_form {
+    font-size: var(--fs-h3);
+    text-align: center;
+}
+
+.my-work {
+    /* background-color: var(--clr-dark); */
+    color: var(--clr-light);
+    text-align: center;    
+}
+
+.section__subtitle--work {
+    color: var(--clr-accent);
+    font-weight: var(--fw-bold);
+    margin-bottom: 2em;
+}
+
+.portfolio{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    max-width: 0 auto;
+}
+
+.portfolio__item{
+    /* background: var(--clr-accent); */
+    overflow: hidden;
+    padding: 00.5rem;
+}
+
+.portfolio__img{
+    transition: transform 750ms cubic-bezier(.5,0,.5,1),
+                opacity 250ms linear;
+}
+
+.portfolio__item:focus{
+    position: relative;
+    z-index: 2;
+}
+
+.portfolio__img:hover,
+.portfolio__item:focus .portfolio__img{
+    transform: scale(1.2);
+    opacity: .5;
+}
+
+.new_entry {
+    text-align: center;
+    color: var(--clr-accent);
+    font-family: var(--ff-secondary);
+}
+
+.meter { 
+	height: 20px;  /* Can be anything */
+	position: relative;
+	background: #555;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 10px;
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+
+.meter > span {
+    display: block;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(65, 71, 88);
+    background-image: linear-gradient(
+      center bottom,
+      rgb(35, 83, 201) 37%,
+      rgb(35, 154, 192) 69%
+    );
+    box-shadow: 
+      inset 0 2px 9px  rgba(255,255,255,0.3),
+      inset 0 -2px 6px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+  }
