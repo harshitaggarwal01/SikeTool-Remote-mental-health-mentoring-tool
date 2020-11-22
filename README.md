@@ -26,15 +26,15 @@ Our web application aims to analyze the user's mental health using a common ther
 
   1. Sentiment Analyzing Model - training and integration into flask app complete.
   2. Summarizer - integration into flask app complete.
-  3. Depression or Not (Binary Classifier) - training complete. Integration into flask app in progress.
-  4. Facial Emotion Recognition Model - training complete. Integration into flask app in progress. 
+  3. Depression or Not (Binary Classifier) - training complete. Integrated into flask.
+  4. Facial Emotion Recognition Model - training complete. Integrated into flask. 
   5. Depression Metric- A Metric obtained By Combining The Probabilities and using a certain Formula , obtained from All the 3 Models
   6. Stores All the Previous Logs in Database (PyMongo)
  
 #### To-Do (Tentatively):
 
   1. Improve UI/UX of flask app.
-  2. Complete integration of models and database.
+~~2. Complete integration of models and database.~~
   3. Summary Visualizations on Therapist's side.
   4. Resources for managing depression on Patient's side.
   
