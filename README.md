@@ -22,12 +22,14 @@ Our web application aims to analyze the user's mental health using a common ther
   
   5. On the admin side, the therapist can request a summary of a particular user's depression indication likelihood over a period of time. We will not be diagnosing the patient but rather provide a recommendation that the therapist can consider in their evaluation of the patient's progress. For the sake of patient privacy, the therapist will not have access to the user's diary entries. 
      
-#### Progress:
+#### Features:
 
   1. Sentiment Analyzing Model - training and integration into flask app complete.
   2. Summarizer - integration into flask app complete.
   3. Depression or Not (Binary Classifier) - training complete. Integration into flask app in progress.
   4. Facial Emotion Recognition Model - training complete. Integration into flask app in progress. 
+  5. Depression Metric- A Metric obtained By Combining The Probabilities and using a certain Formula , obtained from All the 3 Models
+  6. Stores All the Previous Logs in Database (PyMongo)
  
 #### To-Do (Tentatively):
 
