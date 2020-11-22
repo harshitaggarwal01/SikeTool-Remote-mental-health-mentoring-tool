@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Virtual Diary</title>
+  <title>Virtual Diary Mental Health Analysis</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -12,38 +12,36 @@
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 </head>
-<body><div class="navbar-fixed">
-   <nav class="grey darken-4" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">V.D.A.T.</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="{{url_for('index')}}">Home</a></li>
+<body><div class="navbar-fixed" >
+  <nav class="pink lighten-3" role="navigation">
+   <div class="nav-wrapper container">
+     <a id="logo-container" href="#" class="brand-logo">Sike-Tool</a>
+     <ul class="right hide-on-med-and-down">
+       <li ><a href="{{url_for('index')}}">Home</a></li>
 
-         <li><a href="#aboutapp">About</a></li>
-      </ul>
+        <li><a href="#aboutapp">About</a></li>
+     </ul>
 
-      
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
+     
+     <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+   </div>
+ </nav>
 </div>
-	<ul id="nav-mobile" class="sidenav">
-        <li><a href="{{url_for('index')}}">Home</a></li>
+ <ul id="nav-mobile" class="sidenav">
+       <li><a href="{{url_for('index')}}">Home</a></li>
 
-         <li><a href="#contactme">About</a></li>
-      </ul>
+        <li><a  href="#contactme">About</a></li>
+     </ul>
 <!--Slider -->
- <section class="slider">
-  <div id="index-banner" class="parallax-container">
+<section class="slider">
+  <div id="index-banner" class="card-panel pink lighten-5" >
+
      <ul class="slides">
       <li>
-        <img src="backgroundblue.png" alt="Unsplashed background img 1" alt="">
+        <img class="red lighten-3" src="" alt="Unsplashed background img 1" alt="">
         <div class="caption center-align">
-          <h2>Virtual Diary Analytics Tool</h2>
-          <h5 class="light grey-text text-lighten-3 hide-on-small-only">
+          <h2 class="">Virtual Diary Mental Health Analysis-Remote Mental Health Monitoring</h2>
 
-          </h5>
-         
            <div class="row center">
           <a href="{{url_for('index')}}" id="download-button" class="btn-large waves-effect waves-light blue lighten-1">Refresh</a>
         </div>
@@ -63,14 +61,17 @@
       <div class="row">
         <div class="input-field col s12 m10">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">chrome_reader_mode</i></h2>
-           <form method="POST" action="/analyze">
-         <textarea name="rawtext" cols="3" rows="5" class="form-control" required="true" placeholder="Enter Text Here"></textarea>
-          
-         <br/>
-         <button class="btn btn-small waves-effect waves-light light-blue lighten-1" type="reset">Clear</button>
-          <button class="btn btn-small waves-effect waves-light purple lighten-1" type="submit">Summarize</button>
-          
+            <h2 class="center brown-text">Diary Entry<i class="material-icons">chrome_reader_mode</i></h2>
+            <a href="/res">
+            <button class="btn btn-small waves-effect waves-light light-blue lighten-1" type="reset">Start</button>
+            </a><br>
+           <form method="POST" action="/res">
+            <textarea name="rawtext" cols="3" rows="5" class="form-control" required="true" placeholder="Enter Text Here"></textarea>
+            <br/>
+            <div class="center-align">
+              <button class="btn btn-small waves-effect waves-light light-blue lighten-1 cb" type="reset"><span style="margin-right: 50px;"></span>Clear</button>
+               <button class="btn btn-small waves-effect waves-light purple lighten-1" type="submit"><span style="margin-right: 20px;"></span>Summarize</button>
+               </div>
         </form>
           </div>
         </div>
@@ -90,7 +91,16 @@
   <!-- End -->
 
   <!-- Result Display-->
-  <section class="section section-solutions-about grey darken-2">
+  <div class="card-panel red lighten-5">
+    <div class="row">
+        <h5 class="col s10">Depression Metric Level</h5>
+        <h5 class="col s2 right-align">{{ metric }}%</h5>
+    </div>
+    <div class="progress" style="height: 40px">
+        <div class="determinate red lighten-2" style="width: 65%; height: 40px;">{{ metric }}%</div>
+    </div>
+  </div>
+  <section class="section section-solutions-about red lighten-2">
  <div class="container white-text">
  
       <!--   Icon Section   -->
@@ -98,33 +108,60 @@
         <div class="col s8 m4">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">Your Text</h5>
-             <p>Reading Time: <span style="color:#0091EA;">{{ final_reading_time }} min </span></p>
-            <p class="light">{{ctext}}</p>
-            <div class="alert alert-info" role="alert"><p>Time Elapsed: <span style="color:#0091EA;">{{ final_time }} mins </span></p><br/>
+            <h5 class="center" >User's Journal Text</h5>
+             <h6>Reading Time: <span style="font: 10px;">{{ final_reading_time }} min </span></h6>
+            <h4 class="card red lighten-3 center-align">{{ctext}}</h4>
+            <div class="alert alert-info" role="alert"><p>Time Elapsed: <span style="font: 10px">{{ final_time }} mins </span></p><br/>
              
         </div>
           </div>
         </div>
 
-        <div class="col s8 m4 grey darken-3">
+        <div class="col s8 m4 ">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">chrome_reader_mode</i></h2>
             <h5 class="center">Summarized</h5>
               <div class="" role="alert">
-              <p>Reading Time: <span style="color:#0091EA;">{{ summary_reading_time }} min </span></p>
+              <h6>Reading Time: <span  style="font-size: 20px;">{{ summary_reading_time }} min </span></h6>
         </div>
-            <p class="light">{{ final_summary }}</p>
+            <h4 class="card red lighten-3 center-align">{{ final_summary }}</h4>
           
           </div>
         </div>
 <!--Model Predictions-->
-          <div class="col s8 m4 grey darken-3">
+          <div class="col s8 m4 ">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">chrome_reader_mode</i></h2>
-            <h5 class="center">Model Predicted Class</h5>
+            <h5 class="center">Analysed Emotion</h5>
+            <div class="card center-align">
+              <h3 class="light"><span class="green-text center-align">{{ predictions }}</span></h3>
+            </div>
 
-            <p class="light">{{ predictions }}</p>
+            <h5 class="center">Depression Status:</h5>
+            <div class="card">
+              <p class="light"></p>
+              {% if depress==1 %}
+              <div class="row "><span class="red-text center-align">
+                <h4>Depressed</h4></span>
+            </div>
+
+              {% elif depress==0 %}
+              <div class="row "><span class="green-text center-align">
+                <h4>Not Depressing</h4></span>
+            </div>
+              {% endif %}
+          </div>
+            
+          <h5 class="center">Facial Mode Status:</h5>
+          <div class="card">
+          
+              {% if tp: %}
+              <div class="result-text center-align">
+              <h4><span class="green-text center-align">{{tp}}</span><h4>
+              </div>
+              {% endif %}
+            </div>
+             
 
           </div>
         </div>
@@ -138,15 +175,23 @@
 
 
   
-  <footer class="page-footer grey darken-4">
-    <div class="container" id="aboutapp">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">About VDAT App</h5>
-          <p class="grey-text text-lighten-4">Virtual Diary Analytics
-.</p>
 
+        </div>
+      
 
+      </div>
+    </div>
+
+    </div>
+  </footer>
+        </div>
+      
+
+      </div>
+    </div>
+
+    </div>
+  </footer>
         </div>
       
 
