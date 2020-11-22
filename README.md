@@ -1,7 +1,6 @@
-# Octahacks
-## Team Coderaptors
+# Octahacks-Team Coderaptors
 
-## Remote Mental Health Monitoring Tool
+## Sike-Tool - Remote Mental Health Monitoring Tool
 
 ### The Problem
 The COVID-19 pandemic has had a number of consequences--one of which is the population's mental health. Many are experiencing poor mental health for the first time while others have lost access to some of the resources they used to manage their mental health. Namely, a plethora of individuals struggling with depression, anxiety or other mental illnesses have lost access to their regular appointments with their therapists or psychiatrists.
