@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="D:\CLICK HERE\python\octahacks\Tm_Okthcks_pvte_Mod-main\Virtual Diary Mod\static\css\style1.css">
+       
+</head>
+    <title>
+        CODERAPTORS!
+    </title>
+
+    <body>
+        <h1><p class="heading">Virtual Diary Mental Health Analysis<br>EmoTool</p></h1>
+        
+        <form class = "new_entry" method="POST" action="/analyze">
+            <label for= "Date"><h3>Creation Date</h3></label>
+            <input type= "datetime-local" id = "Date" name = "Date">
+            <br><br>
+            <p><h2>New Journal Entry</h2></p>
+            <br>
+            <textarea name="rawtext" cols="100" rows="23" required="true" style="font-style: oblique;" placeholder="Start Journaling :)"></textarea>
+            <br><br><br>
+            <a href="oldjournalentry.html" class="btn" type="submit" form="new_entry" value="Submit">Submit</a>
+            <a href="dashboard.html" class="btn" type="exit" form="new_entry" value="Exit">Delete Draft & Exit</a>
+        </form>
+
