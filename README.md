@@ -1,7 +1,7 @@
 # Octahacks-Team Coderaptors
 
 ## Sike-Tool - Remote Mental Health Monitoring Tool
-<img src="https://github.com/harshitaggarwal01/Octahacks/blob/main/Profiles/1.jpg">
+<img src="https://github.com/harshitaggarwal01/Octahacks/blob/main/Demo%20Images%20%26%20Profiles/1.jpg">
 
 ### The Problem
 The COVID-19 pandemic has had a number of consequences--one of which is the population's mental health. Many are experiencing poor mental health for the first time while others have lost access to some of the resources they used to manage their mental health. Namely, a plethora of individuals struggling with depression, anxiety or other mental illnesses have lost access to their regular appointments with their therapists or psychiatrists.
@@ -47,7 +47,7 @@ Our web application aims to analyze the user's mental health using a common ther
 Harshit Agarwal
 
 <p align="center">
-<img src = "https://github.com/harshitaggarwal01/Octahacks/blob/main/Profiles/harshit.jfif"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
+<img src = "https://github.com/harshitaggarwal01/Octahacks/blob/main/Demo%20Images%20%26%20Profiles/harshit.jfif"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
 </p>
 <p align="center">
 <a href = ""><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
@@ -63,7 +63,7 @@ Harshit Agarwal
 Harsh Sharma
 
 <p align="center">
-<img src = "https://github.com/harshitaggarwal01/Octahacks/blob/main/Profiles/Harsh.jfif"  height="120" alt="Harsh">
+<img src = "https://github.com/harshitaggarwal01/Octahacks/blob/main/Demo%20Images%20%26%20Profiles/Harsh.jfif"  height="120" alt="Harsh">
 </p>
 <p align="center">
 <a href = "https://github.com/harshgeek4coder"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
@@ -79,7 +79,7 @@ Harsh Sharma
 Irfhana Zakir Hussain
 
 <p align="center">
-<img src = "https://github.com/harshitaggarwal01/Octahacks/blob/main/Profiles/Irrfana.jfif"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
+<img src = "https://github.com/harshitaggarwal01/Octahacks/blob/main/Demo%20Images%20%26%20Profiles/Irrfana.jfif"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
 </p>
 <p align="center">
 <a href = ""><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
@@ -96,7 +96,7 @@ Irfhana Zakir Hussain
 Prathamesh Deshpande
 
 <p align="center">
-<img src = "https://github.com/harshitaggarwal01/Octahacks/blob/main/Profiles/Prathmesh.jfif"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
+<img src = "https://github.com/harshitaggarwal01/Octahacks/blob/main/Demo%20Images%20%26%20Profiles/Prathmesh.jfif"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
 </p>
 <p align="center">
 <a href = ""><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
