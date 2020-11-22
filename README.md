@@ -1,6 +1,7 @@
 # Octahacks-Team Coderaptors
 
 ## Sike-Tool - Remote Mental Health Monitoring Tool
+<img src="https://github.com/harshitaggarwal01/Octahacks/blob/main/Profiles/1.jpg">
 
 ### The Problem
 The COVID-19 pandemic has had a number of consequences--one of which is the population's mental health. Many are experiencing poor mental health for the first time while others have lost access to some of the resources they used to manage their mental health. Namely, a plethora of individuals struggling with depression, anxiety or other mental illnesses have lost access to their regular appointments with their therapists or psychiatrists.
@@ -34,4 +35,76 @@ Our web application aims to analyze the user's mental health using a common ther
   2. Complete integration of models and database.
   3. Summary Visualizations on Therapist's side.
   4. Resources for managing depression on Patient's side.
+  
+  
+  ## Contributors
+
+<table>
+<tr align="center">
+
+<td>
+
+Harshit Agarwal
+
+<p align="center">
+<img src = "https://github.com/harshitaggarwal01/Octahacks/blob/main/Profiles/harshit.jfif"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
+</p>
+<p align="center">
+<a href = ""><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
+</a>
+</p>
+</td>
+
+
+<td>
+
+Harsh Sharma
+
+<p align="center">
+<img src = "https://github.com/harshitaggarwal01/Octahacks/blob/main/Profiles/Harsh.jfif"  height="120" alt="Harsh">
+</p>
+<p align="center">
+<a href = "https://github.com/harshgeek4coder"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/in/harsh-sharma-484a4ab6/">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
+</a>
+</p>
+</td>
+
+
+<td>
+
+Irfhana Zakir Hussain
+
+<p align="center">
+<img src = "https://github.com/harshitaggarwal01/Octahacks/blob/main/Profiles/Irrfana.jfif"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
+</p>
+<p align="center">
+<a href = ""><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
+</a>
+</p>
+</td>
+
+
+
+<td>
+
+Prathamesh Deshpande
+
+<p align="center">
+<img src = "https://github.com/harshitaggarwal01/Octahacks/blob/main/Profiles/Prathmesh.jfif"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
+</p>
+<p align="center">
+<a href = ""><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
+</a>
+</p>
+</td>
+</tr>
+  </table>
   
