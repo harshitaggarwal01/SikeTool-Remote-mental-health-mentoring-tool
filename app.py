@@ -216,7 +216,6 @@ def cam_predict():
         my_pred=classifier.predict(vect)
         my_predict_prob = classifier.predict_proba(vect)
         prob = my_predict_prob[0][1]
-        # prob=get_dep_prob(rawtext)
         preds = predictor.predict(final_summary)
         emotion_prob = predictor.predict(final_summary, return_proba=True)
         depression_indicator = ((emotion_prob[1] + emotion_prob[2] + emotion_prob[3]) - (emotion_prob[0]+emotion_prob[4]) + prob)/2
