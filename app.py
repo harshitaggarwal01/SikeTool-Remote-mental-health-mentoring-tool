@@ -189,15 +189,9 @@ def cam_predict():
                 elif text_idx == 6:
                     text = text_list[6]
                 predict_lst.append(text)
-
-                k=cv2.waitKey(1)
-
-                if k == ord('.'):
-                    cap.release()
-                    break
-
                 time.sleep(5)
-
+    cap.release()
+    
     start = time.time()
     if request.method == 'POST':
         if predict_lst.count("Happy")>5 or predict_lst.count("Sad")>5:
